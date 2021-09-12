@@ -1,4 +1,4 @@
-# Mage2 Module Lofmp DeliverySlotGraphQl
+# Magento 2 Module Lofmp DeliverySlotGraphQl
 
     ``landofcoder/module-delivery-slot-graph-ql``
 
