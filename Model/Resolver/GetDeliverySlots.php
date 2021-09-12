@@ -38,9 +38,6 @@ class GetDeliverySlots implements ResolverInterface
         array $value = null,
         array $args = null
     ) {
-        $order_id = isset($args["order_id"])?trim($args["order_id"]):"";
-        $code = isset($args["code"])?trim($args["code"]):"";
-        $email = isset($args["email"])?trim($args["email"]):"";
         $getDeliverySlotsData = $this->getDeliverySlotsDataProvider->getGetDeliverySlots(
             $field,
             $context,
